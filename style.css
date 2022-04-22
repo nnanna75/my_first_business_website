@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 109vh;
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    background-color: black;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+#headerText{
+    color: gold;
+    text-align: center;
+}
+.height{
+    font-size: 20px;
+}
+.logo{
+    margin-left: 350px;
+}
+img{
+    margin-left: 50px;
+}
+a:hover{
+    color: gold;
+    transition: 1s all;
+}
+.type{
+    margin-left: 200px;
+}
+.home{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+li{
+    list-style-type: none;
+}
+.number{
+    height: 40px;
+    width: 300px;
+}
+.email{
+    height: 40px;
+    width: 300px;
+}
+.password{
+    height: 40px;
+    width: 300px;
+}
+.search{
+    margin-left: 300px;
+    height: 40px;
+    width: 300px;
+}
+.submit{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+}
+.submit:hover{
+    color: blue;
+    transition:  1s all;
+}
+@keyframes fade-in{
+    from{opacity: 0;}
+    to{opacity: 5;}
+}
